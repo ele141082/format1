@@ -27,7 +27,16 @@
 .second-row{
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.list{
     list-style: none;
+}
+
+.list .list-item{
+    display: flex;
+    align-items: center;
+    background-color: yellow;
 }
 
 
